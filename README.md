@@ -23,13 +23,23 @@ for(let videoNetflix of video){
 };
 ```
 
+
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/59345979/107109277-b41be780-681d-11eb-938c-0e173f5b65d1.png" alt="drawing" width="500" height="480"/>
+</p>
+
+
+
+
 ## 🔨 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- HTML
-- CSS
-- Jquery
-- Javascript
+- **HTML**
+- **CSS**
+- **Jquery**
+- **Javascript**
 
 #
