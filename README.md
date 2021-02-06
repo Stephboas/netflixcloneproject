@@ -14,6 +14,21 @@ Projeto desenvolvido durante o Bootcamp da Digital Innovation One 🥰
 <img src="https://user-images.githubusercontent.com/59345979/107109277-b41be780-681d-11eb-938c-0e173f5b65d1.png" alt="drawing" width="500" height="480"/>
 </p>
 
+<p>Trecho de parte do código</p>
+
+```
+const modalOverlay = document.querySelector(".modal-overlay");
+const video = document.querySelectorAll('.btn1');
+
+for(let videoNetflix of video){
+    videoNetflix.addEventListner("click, function(){
+        const videoId = videoNetflix.getAttribute("id");
+    	modalOverlay.classList.add("active");
+    	modalOverlay.querySelector("iframe").src = `https://www.youtube.com/embed/${videoId}`;
+  })
+};
+```
+
 ## 🔨 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
